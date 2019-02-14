@@ -1,0 +1,17 @@
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  transition: $transition;
+}
+
+.box {
+  &-search-tile {
+    margin-bottom: 30px;
+    @include transition(0.3s ease-in);
+    &:hover {
+      background: lightgray;
+    }
+  }
+}

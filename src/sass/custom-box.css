@@ -1,0 +1,9 @@
+.box-search-tile {
+  margin-bottom: 30px;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  transition: 0.3s ease-in; }
+  .box-search-tile:hover {
+    background: lightgray; }
